@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: IRANSansWeb;
+}
+
+.main-div {
+    width: 40%;
+    height: 60vh;
+    margin: 40px auto;
+    border-radius: 20px;
+    direction: rtl;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    direction: rtl;
+}
+
+.main-tic-tac-toe {
+    width: 100%;
+    height: 80%;
+    background-color: darkgray;
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+
+.box {
+    width: 126px;
+    height: 91px;
+    background-color: darkgray;
+    cursor: pointer;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.box3, .box6, .box9 {
+    border-left: none;
+}
+
+.box7, .box8, .box9 {
+    border-bottom: none;
+}
+
+.bx {
+    font-size: 95px;
+    color: red;
+}
+
+.winner {
+    background-color: rgba(94, 255, 30, 0.61);
+}
+
+.tie {
+    background-color: #eee;
+}
+
+#message{
+    background-color: darkgray;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+#scores{
+    font-size: 50px;
+}
+
+.reset{
+    padding: 10px 20px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-family: IRANSansWeb;
+    cursor: pointer;
+}
+
+.div-reset{
+    background-color: darkgray;
+    padding: 20px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
